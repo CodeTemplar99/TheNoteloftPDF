@@ -1,0 +1,115 @@
+body{
+background-color:lightgray;
+background-color: white;
+margin: 0px;
+/* overflow: hidden; */
+font-size: 100%;
+}
+
+.navbar{
+  background-color:#302b47 !important;
+}
+
+.navbar-brand{
+  color:white !important;
+  font-size: 160%;
+  font-family:tahoma;
+  font-weight: bold;
+}
+
+.tm{
+  color: steelblue !important;
+  font-family:sans-serif;
+  font-style: italic;
+  }
+
+  .nl-img{
+    width: inherit;
+    height: inherit;
+  }
+
+  .x{
+    height: 80vh;
+    max-height: 80vh;
+    object-fit: contain;
+  }
+
+.writeUp{
+  color: black !important;
+  font-size: 135%;
+}
+
+.noteTags{
+  margin-right: 5px;
+  color: #302b47;
+  font-weight: bold;
+}
+
+  .halo{
+    background: #4683b42c !important;
+  }
+
+  .btn{
+    color: white;
+    background-color: steelblue;
+  }
+  .btn:hover{
+    
+    color: white;
+    background-color: #5293e7;
+  }
+
+  .input{
+    height: 40px;
+  }
+
+  .fa-download{
+    font-size: 140%;
+    color: steelblue;
+  }
+
+  .list-con{
+    overflow-y: auto;
+    height: 70vh;
+  }
+
+ .list-con .list-group .list-group-item:hover{
+   background:  #b0c4de88 !important;
+  }
+
+  .left{
+    height: 35vh;
+    width: 35vh;
+  }
+
+  .partners-con{
+    background-color: white !important;
+    height: 10vh;
+    border: 1px solid lightgray!important;
+  }
+ 
+  @media screen and (max-width:768px){
+   
+
+  .x{
+    height: 40vh;
+    max-height: 40vh;
+    object-fit: contain;
+  }
+  
+   .left{
+     max-height: 50vh;
+     width: 100%;
+     margin-bottom: 10px !important;
+   }
+  
+   .input{
+     width: 50vh;
+     height: 36px;
+   }
+
+   
+  .list-con{
+    height: 50vh;
+  }
+  }
