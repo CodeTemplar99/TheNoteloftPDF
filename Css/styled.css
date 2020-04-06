@@ -34,6 +34,10 @@ font-size: 100%;
     object-fit: contain;
   }
 
+  .landing-covid{
+    width: 86vh;
+    height: 25vh;
+  }
 .writeUp{
   color: black !important;
   font-size: 135%;
