@@ -79,6 +79,7 @@ font-family: 'Crimson Pro', serif;
   }
 
   .list-con{
+    /* background:  red !important; */
     overflow-y: auto;
     height: 70vh;
   }
@@ -114,14 +115,34 @@ display: flex;
             transition: all 0.65s;
         }
 
-        .constraint-con{
-  display: none !important;
+        .constraint-con, .contact-con{
+          display: none !important;
           width: 100%;
           height: 100vh;
           top: 0px;
           background-color: #302b479c;
         }
 
+  /* .contact-con{
+            display: flex !important;
+  } */
+
+  
+  .close-form{
+    padding: 0px 10px 5px 10px;
+    border: 1px hidden;
+    cursor: pointer;
+  }
+  .close-form:hover{
+    width: auto;
+    padding: 0px 10px 5px 10px;
+    color: red;
+    border: 1px solid dimgray;
+  }
+textarea{
+  max-height: 30vh;
+  resize: none;
+}
 .brand-in-modal{
   font-size: 140%;
   text-shadow: 2px 2px 3px black;

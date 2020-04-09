@@ -29,3 +29,9 @@ function slides() {
     document.getElementById("slide").appendChild(slide);
 
 }
+
+// closeForm
+function closeForm() {
+    document.querySelector('.contact-con').style.display = "none !important";
+    console.log("done")
+}
