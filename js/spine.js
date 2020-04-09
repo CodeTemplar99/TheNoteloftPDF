@@ -30,8 +30,11 @@ function slides() {
 
 }
 
-// closeForm
-function closeForm() {
-    document.querySelector('.contact-con').style.display = "none !important";
-    console.log("done")
+// show contact
+function showContact() {
+    document.querySelector(".contact-con").style.display = "flex";
+}
+
+function hideContact() {
+    document.querySelector(".contact-con").style.display = "none";
 }

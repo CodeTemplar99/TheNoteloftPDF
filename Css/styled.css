@@ -116,7 +116,9 @@ display: flex;
         }
 
         .constraint-con, .contact-con{
-          display: none !important;
+          display: none;
+          justify-content: center;
+          align-items: center;
           width: 100%;
           height: 100vh;
           top: 0px;
