@@ -92,7 +92,7 @@ font-family: 'Crimson Pro', serif;
     width: 35vh;
     /* border: 1px solid red; */
   }
-  .nl-wish{
+  .nl-wish, .const-text{
     width: 100%;
 font-family: 'Rosario', sans-serif;
 /* font-family: 'Crimson Pro', serif; */
@@ -114,6 +114,18 @@ display: flex;
             transition: all 0.65s;
         }
 
+        .constraint-con{
+  display: none !important;
+          width: 100%;
+          height: 100vh;
+          top: 0px;
+          background-color: #302b479c;
+        }
+
+.brand-in-modal{
+  font-size: 140%;
+  text-shadow: 2px 2px 3px black;
+}
 
   .partners-con{
     background-color: white !important;
