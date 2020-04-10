@@ -122,13 +122,14 @@ display: flex;
           width: 100%;
           height: 100vh;
           top: 0px;
-          background-color: #302b479c;
+          background-color: #302b479c; 
+
         }
 
-  /* .contact-con{
-            display: flex !important;
-  } */
-
+.feed-title{
+font-family: 'Rosario', sans-serif;
+  font-size: 150%;
+}
   
   .close-form{
     padding: 0px 10px 5px 10px;
@@ -152,8 +153,24 @@ textarea{
 
   .partners-con{
     background-color: white !important;
-    height: 10vh;
+    min-height: 20vh;
     border: 1px solid lightgray!important;
+  }
+.partner-title{
+  font-size: 150%;
+}
+
+  .partner-box{
+    padding: 1px !important;
+    height: 10vh;
+    width: 13vh;
+    cursor: pointer;
+  }
+
+  .partner-box a img{
+    height:100%;
+    width: 100%;
+
   }
  
   @media screen and (max-width:768px){
