@@ -1,3 +1,4 @@
+// show form on landing page
 function showConstraint() {
     document.querySelector(".constraint-con").style.display = "flex";
     console.log("done")

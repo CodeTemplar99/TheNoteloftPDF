@@ -1,3 +1,4 @@
+// search
 function startSearch() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("myInput");
@@ -16,7 +17,6 @@ function startSearch() {
 
     }
 }
-
 
 // slide
 var on = true;
