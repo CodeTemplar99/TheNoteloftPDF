@@ -165,6 +165,13 @@ textarea{
     height: 15vh;
     width: 19vh;
     cursor: pointer;
+    transition: width 0.60s;
+  }
+
+  .partner-box:hover{
+    border: 2px solid #302b47;
+    height: 20vh;
+    width: 25vh;
   }
 
   .partner-box a img{
