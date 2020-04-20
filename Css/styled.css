@@ -162,8 +162,8 @@ textarea{
 
   .partner-box{
     padding: 1px !important;
-    height: 15vh;
-    width: 19vh;
+    height: 13vh;
+    width: 14vh;
     cursor: pointer;
     transition: width 0.60s;
   }
